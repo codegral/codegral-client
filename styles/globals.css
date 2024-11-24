@@ -31,7 +31,6 @@
 body {
   /* font-family: "Host Grotesk", sans-serif; */
   font-family: "Noto Sans Math", sans-serif;
-  /* background-color: rgb(var(--color-light)); */
 }
 
 nav #navbar-ul::-webkit-scrollbar {
@@ -40,7 +39,7 @@ nav #navbar-ul::-webkit-scrollbar {
 }
 
 nav #navbar-ul li {
-  min-width: 200px;
+  min-width: 240px;
   max-width: auto;
   text-align: center;
 }
@@ -52,6 +51,6 @@ nav #navbar-ul li a {
 
 @media screen and (max-width: 992px) {
   nav #navbar-ul li {
-    min-width: 120px;
+    min-width: 140px;
   }
 }
