@@ -33,6 +33,10 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
+        <meta
+          name="description"
+          content="Codegral | Software Content & Development Platform"
+        />
         <title>Codegral | Software Content & Development Platform</title>
       </Head>
       <section className="">
