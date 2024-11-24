@@ -12,12 +12,15 @@ module.exports = {
         primary: {
           DEFAULT: "rgb(var(--color-primary))",
           darker: "rgb(var(--color-primary-darker))",
+          lighter: "rgb(var(--color-primary-lighter))",
         },
 
         black: "rgb(var(--color-black))",
         dark: "rgb(var(--color-dark))",
+        darker: "rgb(var(--color-darker))",
 
         light: "rgb(var(--color-light))",
+        lighter: "rgb(var(--color-lighter))",
         white: "rgb(var(--color-white))",
 
         muted: {
