@@ -1,12 +1,12 @@
 import Head from "next/head";
-import Navbar from "./ui/Navbar";
+import Header from "./ui/Header";
 
 const Layout = ({ children }) => (
   <>
     <Head>
-      <title>Codegral</title>
+      <title>Codegral | Software Content & Development Platform</title>
     </Head>
-    <Navbar />
+    <Header />
     <main>{children}</main>
     <footer></footer>
   </>
