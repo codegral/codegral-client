@@ -27,8 +27,12 @@ module.exports = {
       },
 
       borderColor: {
-        DEFAULT: "rgb(var(--color-border))",
-        dark: "rgb(var(--color-border-dark))",
+        DEFAULT: "rgba(var(--color-border))",
+        dark: "rgba(var(--color-border-dark))",
+      },
+
+      transitionDuration: {
+        DEFAULT: "0.35s",
       },
     },
   },
