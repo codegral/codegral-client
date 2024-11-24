@@ -3,8 +3,7 @@ const Button = ({ type, variant, className, onClick, children }) => {
 
   switch (variant) {
     case "primary": {
-      classes +=
-        "bg-primary hover:bg-primary-darker hover:shadow-none text-white ";
+      classes += "bg-primary hover:bg-primary-darker text-white ";
       break;
     }
   }

@@ -41,10 +41,17 @@ nav #navbar-ul::-webkit-scrollbar {
 
 nav #navbar-ul li {
   min-width: 200px;
+  max-width: auto;
   text-align: center;
 }
 
 nav #navbar-ul li a {
   display: block;
   min-width: inherit;
+}
+
+@media screen and (max-width: 992px) {
+  nav #navbar-ul li {
+    min-width: 120px;
+  }
 }

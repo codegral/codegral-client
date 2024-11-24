@@ -6,6 +6,8 @@ import Button from "./Button";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import { themeSliceActions } from "@/store/theme/theme.slice";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   const themeState = useSelector((state) => state.theme);
@@ -30,13 +32,26 @@ const Header = () => {
   return (
     <header className="bg-white dark:bg-black py-4 mb-2">
       <Container className={"grid grid-cols-12 items-center"}>
-        <section className="col-span-11 lg:col-span-3">
+        <section className="col-span-1 flex items-center justify-end lg:hidden">
+          <Image
+            src={
+              currentTheme === "dark"
+                ? "/icons/menu_light.png"
+                : "/icons/menu_dark.png"
+            }
+            width={96}
+            height={96}
+            className="w-10"
+            alt="Menu Icon"
+          />
+        </section>
+        <section className="col-span-10 text-center lg:col-span-3">
           <Link href={"/"}>
             <Image
               src={"/brand.png"}
               width={4055}
               height={1052}
-              className="w-28"
+              className="w-28 mx-auto"
               alt="Codegral Brand"
               priority
             />
@@ -68,14 +83,8 @@ const Header = () => {
             </Button>
           </section>
         </section>
-        <section className="col-span-1 flex items-center justify-end lg:hidden">
-          <Image
-            src={"/icons/menu.png"}
-            width={96}
-            height={96}
-            className="w-10"
-            alt="Menu Icon"
-          />
+        <section className="col-span-1 lg:hidden">
+          <FontAwesomeIcon icon={faSearch} size="lg" />
         </section>
       </Container>
     </header>

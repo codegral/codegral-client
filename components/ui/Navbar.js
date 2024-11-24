@@ -6,7 +6,7 @@ const Navbar = () => (
       id="navbar-ul"
       className="flex items-center snap-mandatory snap-x overflow-x-scroll"
     >
-      <li className="snap-center snap-always">
+      <li className="snap-center">
         <Link
           href={"/"}
           className="text-sm hover:bg-lighter hover:dark:bg-darker transition-all py-2"
@@ -14,7 +14,7 @@ const Navbar = () => (
           Software
         </Link>
       </li>
-      <li className="snap-center snap-always">
+      <li className="snap-center">
         <Link
           href={"/"}
           className="text-sm hover:bg-lighter hover:dark:bg-darker transition-all py-2"
@@ -22,7 +22,7 @@ const Navbar = () => (
           Tech
         </Link>
       </li>
-      <li className="snap-center snap-always">
+      <li className="snap-center">
         <Link
           href={"/"}
           className="text-sm hover:bg-lighter hover:dark:bg-darker transition-all py-2"
@@ -30,7 +30,7 @@ const Navbar = () => (
           Development
         </Link>
       </li>
-      <li className="snap-center snap-always">
+      <li className="snap-center">
         <Link
           href={"/"}
           className="text-sm hover:bg-lighter hover:dark:bg-darker transition-all py-2"
@@ -38,7 +38,7 @@ const Navbar = () => (
           Programming Languages
         </Link>
       </li>
-      <li className="snap-center snap-always">
+      <li className="snap-center">
         <Link
           href={"/"}
           className="text-sm hover:bg-lighter hover:dark:bg-darker transition-all py-2"
@@ -46,7 +46,7 @@ const Navbar = () => (
           Frameworks & Libraries
         </Link>
       </li>
-      <li className="snap-center snap-always">
+      <li className="snap-center">
         <Link
           href={"/"}
           className="text-sm hover:bg-lighter hover:dark:bg-darker transition-all py-2"
@@ -54,7 +54,7 @@ const Navbar = () => (
           Operating Systems
         </Link>
       </li>
-      <li className="snap-center snap-always">
+      <li className="snap-center">
         <Link
           href={"/"}
           className="text-sm hover:bg-lighter hover:dark:bg-darker transition-all py-2"
@@ -62,7 +62,7 @@ const Navbar = () => (
           Artificial Intelligence
         </Link>
       </li>
-      <li className="snap-center snap-always">
+      <li className="snap-center">
         <Link
           href={"/"}
           className="text-sm hover:bg-lighter hover:dark:bg-darker transition-all py-2"
@@ -70,7 +70,7 @@ const Navbar = () => (
           Database
         </Link>
       </li>
-      <li className="snap-center snap-always">
+      <li className="snap-center">
         <Link
           href={"/"}
           className="text-sm hover:bg-lighter hover:dark:bg-darker transition-all py-2"
@@ -78,7 +78,7 @@ const Navbar = () => (
           Cyber Security
         </Link>
       </li>
-      <li className="snap-center snap-always">
+      <li className="snap-center">
         <Link
           href={"/"}
           className="text-sm hover:bg-lighter hover:dark:bg-darker transition-all py-2"
@@ -86,7 +86,7 @@ const Navbar = () => (
           Mobile
         </Link>
       </li>
-      <li className="snap-center snap-always">
+      <li className="snap-center">
         <Link
           href={"/"}
           className="text-sm hover:bg-lighter hover:dark:bg-darker transition-all py-2"
