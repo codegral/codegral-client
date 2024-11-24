@@ -7,6 +7,7 @@ export default function Document() {
       <body className="transition-all">
         <Main />
         <NextScript />
+        <div id="offcanvas-backdrop"></div>
       </body>
     </Html>
   );

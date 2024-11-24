@@ -37,6 +37,10 @@ module.exports = {
       transitionDuration: {
         DEFAULT: "0.35s",
       },
+
+      transitionDelay: {
+        DEFAULT: "0.15s",
+      },
     },
   },
   plugins: [],
