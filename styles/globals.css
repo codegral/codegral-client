@@ -51,6 +51,6 @@ nav #navbar-ul li a {
 
 @media screen and (max-width: 992px) {
   nav #navbar-ul li {
-    min-width: 140px;
+    min-width: 120px;
   }
 }
