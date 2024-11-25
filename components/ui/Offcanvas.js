@@ -20,7 +20,7 @@ const Offcanvas = ({ show, children }) => {
     function () {
       const identifier = setTimeout(function () {
         if (!show) setDisplay("none");
-      }, 500);
+      }, 300);
 
       if (show) setDisplay("block");
 
@@ -45,7 +45,7 @@ const Offcanvas = ({ show, children }) => {
       <motion.section
         initial={{ translateX: "-100%" }}
         animate={{ translateX: show ? "0%" : "-100%" }}
-        transition={{ ease: "easeOut", duration: 0.35, delay: 0.15 }}
+        transition={{ ease: "easeOut", duration: 0.15, delay: 0.15 }}
         className="w-full h-full bg-white dark:bg-black shadow-xl p-4"
       >
         {children}

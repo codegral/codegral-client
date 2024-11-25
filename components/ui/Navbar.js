@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const Navbar = () => (
-  <nav className="bg-white dark:bg-black hidden lg:block">
+  <nav className="bg-white dark:bg-black hidden lg:block shadow dark:shadow-darker">
     <ul
       id="navbar-ul"
       className="flex items-center justify-center gap-3 snap-mandatory snap-x overflow-x-scroll"
