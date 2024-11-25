@@ -34,8 +34,6 @@ const Header = () => {
     [theme]
   );
 
-  console.log("Offcanvas: ", offcanvas);
-
   return (
     <>
       <header className="bg-white dark:bg-black py-4 mb-2">
