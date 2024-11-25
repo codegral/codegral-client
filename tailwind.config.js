@@ -35,7 +35,7 @@ module.exports = {
       },
 
       transitionDuration: {
-        DEFAULT: "0.35s",
+        DEFAULT: "0.15s",
       },
 
       transitionDelay: {

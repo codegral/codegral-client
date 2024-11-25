@@ -14,8 +14,8 @@
   /* --color-dark: 17, 21, 23;
   --color-darker: 12, 15, 16; */
   --color-black: 3, 10, 14;
-  --color-dark: 13, 20, 24;
-  --color-darker: 23, 30, 34;
+  --color-dark: 7, 14, 18;
+  --color-darker: 11, 18, 22;
 
   --color-white: 250, 250, 250;
   --color-light: 240, 240, 240;
@@ -37,14 +37,3 @@ nav #navbar-ul::-webkit-scrollbar {
   width: 0px;
   height: 0px;
 }
-
-/* nav #navbar-ul li {
-  min-width: 240px;
-  max-width: auto;
-  text-align: center;
-}
-
-nav #navbar-ul li a {
-  display: block;
-  min-width: inherit;
-} */

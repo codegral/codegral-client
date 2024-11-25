@@ -36,7 +36,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="bg-white dark:bg-black py-4 border-b dark:border-b-dark">
+      <header className="bg-white dark:bg-black py-4 shadow-sm dark:shadow-darker lg:shadow-none">
         <Container className={"grid grid-cols-12 items-center"}>
           {/* Only Mobile */}
           <section className="col-span-1 flex items-center justify-end lg:hidden">
@@ -46,6 +46,7 @@ const Header = () => {
                   ? "/icons/ui/menu_light.png"
                   : "/icons/ui/menu_dark.png"
               }
+              // src={"/icons/ui/menu.png"}
               width={96}
               height={96}
               className="w-10 active:opacity-50"
