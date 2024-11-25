@@ -36,8 +36,9 @@ const Header = () => {
 
   return (
     <>
-      <header className="bg-white dark:bg-black py-4 mb-2">
+      <header className="bg-white dark:bg-black py-4 border-b dark:border-b-dark">
         <Container className={"grid grid-cols-12 items-center"}>
+          {/* Only Mobile */}
           <section className="col-span-1 flex items-center justify-end lg:hidden">
             <Image
               src={
@@ -52,21 +53,27 @@ const Header = () => {
               alt="Menu Icon"
             />
           </section>
-          <section className="col-span-10 text-center lg:col-span-3">
+
+          {/* Both */}
+          <section className="col-span-10  lg:col-span-3">
             <Link href={"/"}>
               <Image
                 src={"/brand.png"}
                 width={4055}
                 height={1052}
-                className="w-28 mx-auto"
+                className="w-28 mx-auto lg:mx-0"
                 alt="Codegral Brand"
                 priority
               />
             </Link>
           </section>
+
+          {/* Only Desktop */}
           <section className="col-span-6 hidden lg:block">
             <SearchInput />
           </section>
+
+          {/* Only Desktop */}
           <section className="col-span-3 lg:flex items-center justify-end gap-3 hidden">
             <section>
               <div className="w-[36px] h-[36px] rounded-full overflow-hidden">
@@ -90,11 +97,13 @@ const Header = () => {
               </Button>
             </section>
           </section>
+
+          {/* Only Mobile */}
           <section className="col-span-1 lg:hidden">
             <FontAwesomeIcon
               icon={faSearch}
               size="lg"
-              className="active:opacity-50"
+              className="active:opacity-50 transition-all"
             />
           </section>
         </Container>

@@ -9,7 +9,7 @@ const SearchInput = ({ className, value, onChange, onBlur }) => (
       type={"text"}
       name={"search"}
       placeholder={"Search"}
-      className={`peer rounded-full hover:shadow-md hover:dark:shadow-darker focus:shadow-md ${className}`}
+      className={`peer rounded-full hover:shadow hover:dark:shadow-md hover:dark:shadow-darker focus:shadow ${className}`}
       value={value}
       onChange={onChange}
       onBlur={onBlur}
