@@ -7,7 +7,7 @@ const Input = ({
   onChange,
   onBlur,
 }) => {
-  let classes = `input block w-full bg-white dark:bg-dark border dark:border-dark focus:border-black focus:dark:border-white rounded text-sm text-dark dark:text-white placeholder:text-sm placeholder:text-muted placeholder:dark:text-muted-dark outline-none ${className} py-2 px-3 transition-all`;
+  let classes = `input block w-full bg-white dark:bg-dark border dark:border-dark focus:border-muted focus:dark:border-muted-dark rounded text-sm text-dark dark:text-white placeholder:text-sm placeholder:text-muted placeholder:dark:text-muted-dark outline-none ${className} py-2 px-3 transition-all`;
 
   return (
     <input

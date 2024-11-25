@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
         />
         <title>Codegral | Software Content & Development Platform</title>
       </Head>
-      <section className="">
+      <section className="shadow dark:shadow-darker">
         <Header />
         <Navbar />
       </section>
