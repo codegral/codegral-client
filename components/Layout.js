@@ -35,9 +35,9 @@ const Layout = ({ children }) => {
       <Head>
         <meta
           name="description"
-          content="Codegral | Software Content & Development Platform"
+          content="Codegral | Software Development & Content Platform"
         />
-        <title>Codegral | Software Content & Development Platform</title>
+        <title>Codegral | Software Development & Content Platform</title>
       </Head>
       <Header />
       <Navbar />
